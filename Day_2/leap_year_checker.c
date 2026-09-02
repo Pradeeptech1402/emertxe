@@ -1,3 +1,16 @@
+/*Task 1: Leap Year Checker (10_leap_year.c)
+
+Goal: Determine if a given year is a leap year.
+
+Logic Rule: A year is a leap year if:
+
+It is divisible by 4 AND not divisible by 100, OR
+
+It is divisible by 400.
+
+Requirements: Prompt the user for a year (e.g., 2024, 1900, 2000) and print whether it is a Leap Year or Not a Leap Year.*/
+
+
 #include<stdio.h>
 
 int main(){
