@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    const int pi = 3.14;
+    const double pi = 3.14;
     double radius,area,perimeter;
     
     printf("Enter the Radius of circle: ");
