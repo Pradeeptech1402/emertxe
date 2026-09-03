@@ -21,7 +21,7 @@ int main(){
     else if(input2>=input3 && input2>=input1){
         printf("%d is Greatest\n", input2 );
     }
-    else if(input3>=input1 && input3>=input1){
+    else if(input3>=input1 && input3>=input2){
         printf("%d is Greatest\n", input3 );
     }
 
