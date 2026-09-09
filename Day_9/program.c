@@ -10,7 +10,6 @@ int main(){
         reversed = reversed*10+digit;
         num = num/10;
     }
-
     printf("Reversed %d",reversed);
 
     if(reversed==cp_num){
