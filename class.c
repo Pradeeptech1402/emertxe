@@ -1,18 +1,27 @@
 #include<stdio.h>
 int main(){
-    int num1;
-    int num2;
-    printf("Enter two numbers: ");
-    scanf("%d %d",num1,num2);
-    printf("%d %d",num1,num2);
+    int num;
+    printf("Enter number: ");
+    scanf("%d",&num);
 
-    for(int i=1;i<num1;i++){
-        if(num1%i==0){
-            printf("%d",i);
-        }else{
-            printf("df");
-        }
+    for(int i=0;i<=num;i++){
+        printf("%d*")
     }
+
+
+    // int num1;
+    // int num2;
+    // printf("Enter two numbers: ");
+    // scanf("%d %d",num1,num2);
+    // printf("%d %d",num1,num2);
+
+    // for(int i=1;i<num1;i++){
+    //     if(num1%i==0){
+    //         printf("%d",i);
+    //     }else{
+    //         printf("df");
+    //     }
+    // }
 
 
 
