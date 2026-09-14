@@ -6,7 +6,8 @@ Step 3: Take input from the user for the variables. first_number, common_differe
 
 Step 4: Check whether the user input is valid.
 
-Step 5: If the user input is invalid (number_of_terms is less than 0), print the message "Invalid input," 	then terminate the program.(return 0;)
+Step 5: If the user input is invalid (number_of_terms is less than 0), print the message
+	"Invalid input,"then terminate the program.(return 0;)
 
 Step 6: Assign ap and gp the value of first_number.
 
@@ -17,8 +18,9 @@ Step 8: Add a print statement with label "AP = " and print first_number
 Step 9: Then, in the first 'for loop'. for each iteration, update the value of ap by adding the 	common_difference. And print the value of ap and add a comma for each value.
 
 Step10 : add print statement with label "GP = " with new line and print first_number
-e
-Step11 : Then in the second 'for loop ', update the value of gp by multiplying by common_difference, and print 	the value of gp; add a comma for each value except the last value
+
+Step11 : Then in the second 'for loop ', update the value of gp by multiplying by common_difference,
+	and print the value of gp; add a comma for each value except the last value
 
 Step12 : add print statement with label "HP = " with new line and print common_difference/first_number
 

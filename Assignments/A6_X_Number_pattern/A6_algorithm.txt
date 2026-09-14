@@ -1,0 +1,13 @@
+Step 1 : Start
+
+Step 2 : take a input from user then store it in a variable n
+
+Step 3 : create a for loop with iterations equals to n
+
+Step 4 : in each iteration create a for loop with iteration equals to n
+
+Step 5 : in each iteration have if statement that will check the condition to print the number
+
+Step 6 : condition of the if statement is. need to print if the outer loop index is equal to inner loop or outer loop index + inner index equals to n
+
+step 7 : then add print statement to print new line after nested loop ends.7

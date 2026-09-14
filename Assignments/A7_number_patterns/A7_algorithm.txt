@@ -1,0 +1,23 @@
+Step 1 : Start
+
+Step 2 : Declare the required variables (input_number)
+
+Step 3 : Take input from the user with label "Enter the number: " and assign it in variable 'input_number' 
+
+Step 4 : Create a outer for loop with iterations upto (input_number).with index variable 'i'
+
+Step 5 : Create a inner for loop with iteration 1 to input_number. with index variable 'j'
+
+Step 6 : Create an if statement inside inner for loop to check the condition to print numbers 
+	 condition(print 'j' if only 'i'+'j' >= 'input_number' ) 
+
+Step 7 : Print new line after inner for loop completed
+
+Step 8 : Create another outer for loop with iterations 2 to (input_number).with index variable 'i'
+
+Step 9 : Create a inner for loop with iteration i to input_number. with index variable 'j' and print
+	 value of 'j'
+
+Step 10 : Print new line after inner for loop completed
+
+Step 11 : Stop
