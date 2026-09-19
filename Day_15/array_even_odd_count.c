@@ -1,44 +1,31 @@
 #include<stdio.h>
 int main(){
-    // Create array form user
+    // Create an arr1 of user defined size
     int size;
-    printf("Enter the size: ");
+    printf("Enter array size: ");
     scanf("%d",&size);
-    int arr[size];
+    int arr1[size];
+    
+    // Read array elements and store in arr1
     printf("Enter array elements: ");
-    for(int i = 0; i<size; i++){
-        scanf("%d",&arr[i]);
+    for(int i=0; i<size ; i++){
+        scanf("%d",&arr1[i]);
     }
     
+    // create arr2 of the same size as arr1
+    int arr2[size];
     
-    // Know the count of Even and Odd elements in array
-    // store count for even and odd numbers
-    int size_of_even=0, size_of_odd=0;
-    for(int i=0 ; i < size; i++){
-       arr[i]%2==0?size_of_even++:size_of_odd++;
+    // copy the element of arr1 into arr2
+    for(int i=0; i<size; i++){
+        arr2[i]=arr1[i];
     }
-    // create two arrays to store even and odd elements
-    int even_arr[size_of_even], odd_arr[size_of_odd];
-    int even_index_count=0, odd_index_count=0;
-    
-    // check the element is even or odd in array and store it in respective array(even or odd)
-    for(int i=0 ; i<size ; i++){
-        if(arr[i]%2==0){
-            even_arr[even_index_count]=arr[i];
-            even_index_count++;
-        }else{
-            odd_arr[odd_index_count]=arr[i];
-            odd_index_count++;
-        }
+    // Print arr1 and arr2
+    printf("\nArray1 elements: ");
+    for(int i=0; i<size;i++){
+        printf("%d ",arr1[i]);
     }
-    
-    // Print the seperated arrayes
-    printf("\nOdd array elements: ");
-    for(int i=0; i<size_of_odd; i++){
-        printf("%d ",odd_arr[i]);
-    }
-    printf("\nEven array elements: ");
-    for(int i=0; i<size_of_even; i++){
-        printf("%d ",even_arr[i]);
+     printf("\nArray2 elements: ");
+    for(int i=0; i<size;i++){
+        printf("%d ",arr2[i]);
     }
 }
