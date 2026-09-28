@@ -1,25 +1,16 @@
 #include<stdio.h>
-int is_prime(int); //Declration
+int Average_of_Numbers(int n); //Declration
 int main(){
-    int limit;
-    printf("Enter two Limit: ");
-    scanf("%d",&limit);
-    for(int i=2;i<=limit;i++){
-        if(is_prime(i)){
-            printf("%d ",i);
-        }
-    }
+    int n1,n2,n3;
+    float res = Average_of_
+    printf("Enter 3 numbers: ");
+    scanf("%d %d %d",&n1,&n2,&n3);
     printf("\n");
     return 0;
 }
 // Function Defination
-int is_prime(int x){
-    for(int i=2;i<x;i++){
-        if(x%i==0){
-            return 0;
-        }
-    }
-    return 1;
+int Average_of_Numbers(int n1,int n2,int n3){
+    
 }
 
 

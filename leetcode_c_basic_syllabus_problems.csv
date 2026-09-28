@@ -1,0 +1,62 @@
+Problem Number,Problem Title,Category,Difficulty,Core C Concepts Tested,LeetCode URL
+9,Palindrome Number,Pure Arithmetic & Conditionals,Easy,"Math (/, %), while loop, conditionals",https://leetcode.com/problems/palindrome-number/
+7,Reverse Integer,Pure Arithmetic & Conditionals,Medium,"Overflow checking, arithmetic loop",https://leetcode.com/problems/reverse-integer/
+412,Fizz Buzz,Pure Arithmetic & Conditionals,Easy,"if-else if, modulo % operator",https://leetcode.com/problems/fizz-buzz/
+231,Power of Two,Pure Arithmetic & Conditionals,Easy,"While loop, modulo, edge cases",https://leetcode.com/problems/power-of-two/
+326,Power of Three,Pure Arithmetic & Conditionals,Easy,"Loop-based division, condition checks",https://leetcode.com/problems/power-of-three/
+342,Power of Four,Pure Arithmetic & Conditionals,Easy,Arithmetic loop termination,https://leetcode.com/problems/power-of-four/
+258,Add Digits,Pure Arithmetic & Conditionals,Easy,"Nested while loops, digit extraction (% 10, / 10)",https://leetcode.com/problems/add-digits/
+202,Happy Number,Pure Arithmetic & Conditionals,Easy,"Digit extraction, loop simulation",https://leetcode.com/problems/happy-number/
+507,Perfect Number,Pure Arithmetic & Conditionals,Easy,"Loop with factor calculation, conditions",https://leetcode.com/problems/perfect-number/
+509,Fibonacci Number,Pure Arithmetic & Conditionals,Easy,Basic for-loop / variable updates,https://leetcode.com/problems/fibonacci-number/
+1137,N-th Tribonacci Number,Pure Arithmetic & Conditionals,Easy,Loop with 3 rolling variables,https://leetcode.com/problems/n-th-tribonacci-number/
+1281,Subtract Product and Sum of Digits of an Integer,Pure Arithmetic & Conditionals,Easy,"Basic loop, arithmetic operators",https://leetcode.com/problems/subtract-product-and-sum-of-digits-of-an-integer/
+1342,Number of Steps to Reduce a Number to Zero,Pure Arithmetic & Conditionals,Easy,"While loop, if-else (even/odd check)",https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/
+2427,Number of Common Factors,Pure Arithmetic & Conditionals,Easy,"For-loop, modulo condition, counter",https://leetcode.com/problems/number-of-common-factors/
+2469,Convert the Temperature,Pure Arithmetic & Conditionals,Easy,"Basic arithmetic calculations, floating-point types",https://leetcode.com/problems/convert-the-temperature/
+2520,Count the Digits That Divide a Number,Pure Arithmetic & Conditionals,Easy,"Digit parsing, % operation, condition checks",https://leetcode.com/problems/count-the-digits-that-divide-a-number/
+2651,Calculate Delayed Arrival Time,Pure Arithmetic & Conditionals,Easy,Simple arithmetic with modulo % 24,https://leetcode.com/problems/calculate-delayed-arrival-time/
+2769,Find the Maximum Achievable Number,Pure Arithmetic & Conditionals,Easy,Basic arithmetic logic,https://leetcode.com/problems/find-the-maximum-achievable-number/
+69,Sqrt(x),Pure Arithmetic & Conditionals,Easy,While loop / linear integer search,https://leetcode.com/problems/sqrtx/
+1952,Three Divisors,Pure Arithmetic & Conditionals,Easy,"Loop factor count, conditionals",https://leetcode.com/problems/three-divisors/
+2160,Minimum Sum of Four Digit Number,Pure Arithmetic & Conditionals,Easy,"Digit extraction, basic sorting / comparisons",https://leetcode.com/problems/minimum-sum-of-four-digit-number/
+1920,Build Array from Permutation,1D Array Traversal,Easy,1D array indexing (ans[i] = nums[nums[i]]),https://leetcode.com/problems/build-array-from-permutation/
+1929,Concatenation of Array,1D Array Traversal,Easy,Array allocation and indexing up to 2N,https://leetcode.com/problems/concatenation-of-array/
+1480,Running Sum of 1d Array,1D Array Traversal,Easy,"Single loop, cumulative addition",https://leetcode.com/problems/running-sum-of-1d-array/
+1470,Shuffle the Array,1D Array Traversal,Easy,Alternating index traversal,https://leetcode.com/problems/shuffle-the-array/
+2011,Final Value After Operations,1D Array Traversal,Easy,"Loop, string/char checks, increment/decrement",https://leetcode.com/problems/final-value-after-operations/
+1431,Kids With the Greatest Number of Candies,1D Array Traversal,Easy,Pass 1: find max; Pass 2: check condition,https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/
+1672,Richest Customer Wealth,1D Array Traversal,Easy,"Nested iteration, sum accumulation",https://leetcode.com/problems/richest-customer-wealth/
+1365,How Many Numbers Are Smaller Than Current,1D Array Traversal,Easy,Brute force with nested for loops,https://leetcode.com/problems/how-many-numbers-are-smaller-than-current/
+1512,Number of Good Pairs,1D Array Traversal,Easy,"Nested loops (i from 0 to n, j from i+1 to n)",https://leetcode.com/problems/number-of-good-pairs/
+1,Two Sum,1D Array Traversal,Easy,Brute-force approach using nested loops,https://leetcode.com/problems/two-sum/
+1295,Find Numbers with Even Number of Digits,1D Array Traversal,Easy,Array traversal + inner digit count loop,https://leetcode.com/problems/find-numbers-with-even-number-of-digits/
+2942,Find Words Containing Character,1D Array Traversal,Easy,"Iteration, character checks",https://leetcode.com/problems/find-words-containing-character/
+2798,Number of Employees Who Met the Target,1D Array Traversal,Easy,Linear search with counter,https://leetcode.com/problems/number-of-employees-who-met-the-target/
+2824,Count Pairs Whose Sum is Less than Target,1D Array Traversal,Easy,Nested loops comparing indices,https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/
+1588,Sum of All Odd Length Subarrays,1D Array Traversal,Easy,Simple nested loops generating subranges,https://leetcode.com/problems/sum-of-all-odd-length-subarrays/
+2535,Difference Between Element Sum and Digit Sum,1D Array Traversal,Easy,Loop traversal + inner digit sum loop,https://leetcode.com/problems/difference-between-element-sum-and-digit-sum/
+2656,Maximum Sum With Exactly K Elements,1D Array Traversal,Easy,Find maximum element + arithmetic loop,https://leetcode.com/problems/maximum-sum-with-exactly-k-elements/
+1464,Maximum Product of Two Elements in an Array,1D Array Traversal,Easy,Find two largest elements with linear scan,https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/
+2114,Maximum Number of Words Found in Sentences,1D Array Traversal,Easy,Loop through characters counting spaces,https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/
+1732,Find the Highest Altitude,1D Array Traversal,Easy,Prefix sum tracking maximum value,https://leetcode.com/problems/find-the-highest-altitude/
+27,Remove Element,Array Manipulation & Simulation,Easy,Fast/slow index pointer overwriting elements,https://leetcode.com/problems/remove-element/
+26,Remove Duplicates from Sorted Array,Array Manipulation & Simulation,Easy,In-place unique element tracking,https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+283,Move Zeroes,Array Manipulation & Simulation,Easy,"Shift non-zero items, pad with zeroes",https://leetcode.com/problems/move-zeroes/
+66,Plus One,Array Manipulation & Simulation,Easy,"Reverse traversal, carry manipulation, edge cases",https://leetcode.com/problems/plus-one/
+35,Search Insert Position,Array Manipulation & Simulation,Easy,Linear scan or simple binary search loop,https://leetcode.com/problems/search-insert-position/
+121,Best Time to Buy and Sell Stock,Array Manipulation & Simulation,Easy,Single pass: track minimum and maximum profit,https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+217,Contains Duplicate,Array Manipulation & Simulation,Easy,Nested loop brute force comparison,https://leetcode.com/problems/contains-duplicate/
+268,Missing Number,Array Manipulation & Simulation,Easy,Sum formula / loop accumulation,https://leetcode.com/problems/missing-number/
+136,Single Number,Array Manipulation & Simulation,Easy,Nested loop checking duplicates / XOR,https://leetcode.com/problems/single-number/
+485,Max Consecutive Ones,Array Manipulation & Simulation,Easy,"Iteration, tracking current vs. max streak",https://leetcode.com/problems/max-consecutive-ones/
+88,Merge Sorted Array,Array Manipulation & Simulation,Easy,Reverse three-pointer array index traversal,https://leetcode.com/problems/merge-sorted-array/
+905,Sort Array By Parity,Array Manipulation & Simulation,Easy,"Two-pointer swap (even to left, odd to right)",https://leetcode.com/problems/sort-array-by-parity/
+922,Sort Array By Parity II,Array Manipulation & Simulation,Easy,Index step manipulation (i += 2),https://leetcode.com/problems/sort-array-by-parity-ii/
+977,Squares of a Sorted Array,Array Manipulation & Simulation,Easy,Squaring + two-pointer placement,https://leetcode.com/problems/squares-of-a-sorted-array/
+1051,Height Checker,Array Manipulation & Simulation,Easy,"Array copying, manual bubble sort loop, comparison",https://leetcode.com/problems/height-checker/
+1748,Sum of Unique Elements,Array Manipulation & Simulation,Easy,Frequency count array (index as value),https://leetcode.com/problems/sum-of-unique-elements/
+2154,Keep Multiplying Found Values by Two,Array Manipulation & Simulation,Easy,While loop + linear array search,https://leetcode.com/problems/keep-multiplying-found-values-by-two/
+724,Find Pivot Index,Array Manipulation & Simulation,Easy,Total sum vs. prefix sum tracking,https://leetcode.com/problems/find-pivot-index/
+189,Rotate Array,Array Manipulation & Simulation,Medium,Reverse array logic with loop,https://leetcode.com/problems/rotate-array/
+605,Can Place Flowers,Array Manipulation & Simulation,Easy,1D array condition checking with adjacent elements,https://leetcode.com/problems/can-place-flowers/
