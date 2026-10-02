@@ -1,0 +1,28 @@
+# Compiled binaries & executables
+*.out
+*.exe
+*.o
+*.obj
+*.bin
+*.elf
+*.hex
+
+# Default Linux gcc output
+a.out
+
+# Debugger symbols & profiling
+*.dSYM/
+*.gdb
+*.gdb_history
+*.core
+vgcore.*
+
+# IDE / Editor configuration folders
+.vscode/
+.idea/
+*.swp
+*~
+
+# Operating System junk files
+.DS_Store
+Thumbs.db
